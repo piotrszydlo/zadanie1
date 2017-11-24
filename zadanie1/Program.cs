@@ -7,10 +7,11 @@ namespace zadanie1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Aby zamknąć aplikację, należy wpisać exit i nacisnąć klawisz enter");
+            
             
             while (true)
             {
+                Console.WriteLine("Aby zamknąć aplikację, należy wpisać exit i nacisnąć klawisz enter");
                 string input = Console.ReadLine();
                 Console.ReadKey();
                 if (input == "exit")
